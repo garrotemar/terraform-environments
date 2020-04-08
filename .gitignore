@@ -1,0 +1,6 @@
+testing/.terraform/
+testing/terraform.tfstate*
+testing/terraform
+production/.terraform/
+production/terraform.tfstate*
+production/terraform
