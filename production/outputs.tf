@@ -1,3 +1,4 @@
-output "connection_string"{
-  value = "ssh -l ubuntu ${module.ec2.eip}"
+output "connection_string" {
+  value = "ssh ubuntu@${module.webserver.eip}"
 }
+
